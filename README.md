@@ -14,5 +14,5 @@ A text editor and github is all you need.
 	1. Liam Yancy
 	2. Anson Lee
 
-##Liscence
+## Liscence
 This project is liscenced under the MIT liscence.
