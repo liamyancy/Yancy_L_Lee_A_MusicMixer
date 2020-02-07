@@ -11,8 +11,8 @@ Download the github repository to your computer to get started.
 A text editor and github is all you need.
 
 ## Authors
-	1. Liam Yancy
-	2. Anson Lee
+ 1. Liam Yancy
+ 2. Anson Lee
 
 ## Liscence
 This project is liscenced under the MIT liscence.
