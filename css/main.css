@@ -1,1 +1,37 @@
 @charset "UTF-8"
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.displayBox {
+	width: 1000px;
+	height: 600px;
+	margin-left: 40px;
+	margin-top: 40px;
+	background-color: black;
+	border-radius: 5px;
+}
+
+.icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin-left: 40px;
+}
+
+.iconPlaceholder {
+	width: 100px;
+	height: 100px;
+	margin-top: 40px;
+	margin-right: 50px;
+	background-color: black;
+	border-radius: 5px;
+}
