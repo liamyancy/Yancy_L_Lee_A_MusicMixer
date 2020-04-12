@@ -9,29 +9,59 @@ body {
 	width: 1080px;
 	margin: 0 auto;
 }
-
-.displayBox {
-	width: 1000px;
-	height: 600px;
-	margin-left: 40px;
-	margin-top: 40px;
-	background-color: black;
-	border-radius: 5px;
-}
-
-.icons {
+#dropZone {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
-	margin-left: 40px;
+	margin-left: 17%;
+	position: absolute;
+	top: 10%;	
+}
+.box {
+	width: 220px;
+	height: 280px;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	z-index: 1;
+	flex: 1 1 0;
+}
+.boderZone img {
+	margin-left: 180px;
+	width: 84%;
+	height: 600px;
+}
+.chairBox {
+	display: flex;
+	flex-direction: row;
+	padding-left: 250px;
+	position: absolute;
+	top: 40%;
+}
+.chairBox img {
+	width: 130px;
+	height: 130px;
+	padding-left: 100px;
+}
+.icons {
+	padding-left: 240px;
+	margin-top: 50px;
+}
+.icons img {
+	width: 140px;
+	height: 140px;
+	padding-left: 100px;
 }
 
-.iconPlaceholder {
-	width: 100px;
-	height: 100px;
-	margin-top: 40px;
-	margin-right: 50px;
-	background-color: black;
-	border-radius: 5px;
+.controllers {
+	display: flex;
+	flex-direction: column;
+	width: 60px;
+	position: absolute;
+	left: 11%;
+	top: 20%;
+
+}
+button {
+	margin-top: 60px;
 }
