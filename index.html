@@ -1,29 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
 	<title>Music Mixer</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
 </head>
 <body>
-	<div class="container">
+	<div id="container">
 		<!-- Placeholder box for display and drop location for icons -->
-		<div class="displayBox"></div>
+		<div class="controllers">
+			
+			<button class="pauseButton">pause</button>
+			<button class="rwButton">reset</button>
+		</div>
+		<div id="dropZone">
+			<div class="box"></div>
+			<div class="box"></div>
+			<div class="box"></div>
+			<div class="box"></div>
+			<div class="box"></div>
+			<div class="box"></div>
+		</div>
+
+		<div class="chairBox">
+			<img src="images/chair.jpg" alt="chair">
+			<img src="images/chair.jpg" alt="chair">
+			<img src="images/chair.jpg" alt="chair">
+			<img src="images/chair.jpg" alt="chair">
+			<img src="images/chair.jpg" alt="chair">
+			<img src="images/chair.jpg" alt="chair">
+		</div>
+		<div class="boderZone">
+			<img src="images/Border.jpg" alt="border">
+		</div>
+		
 		<div class="icons">
 			<!-- Placeholder boxes for draggable icons -->
-			<div class="iconPlaceholder"></div>
-			<div class="iconPlaceholder"></div>
-			<div class="iconPlaceholder"></div>
-			<div class="iconPlaceholder"></div>
-			<div class="iconPlaceholder"></div>
-			<div class="iconPlaceholder"></div>
-			<div class="iconPlaceholder"></div>
-			<div class="iconPlaceholder"></div>
-			<div class="iconPlaceholder"></div>
-			<div class="iconPlaceholder"></div>
-			<div class="iconPlaceholder"></div>
-			<div class="iconPlaceholder"></div>
+			<img id="Bird1" class="animal" src="images/icon_Bird.svg" alt="icons">
+			<img id="Bird2" class="animal" src="images/icon_Bird2.svg" alt="icons">
+			<img id="Bird3" class="animal" src="images/icon_Bird3.svg" alt="icons">
+			<img id="frog1" class="animal" src="images/icon_frog1.svg" alt="icons">
+			<img id="frog2" class="animal" src="images/icon_frog2.svg" alt="icons">
+			<img id="frog3" class="animal" src="images/icon_frog3.svg" alt="icons">
 		</div>
+
+		<audio data-audioref='Bird1' id="Bass" class="musicBeat" src="audio/Bass.mp3"></audio>
+		<audio data-audioref='Bird2' id="Beat" class="musicBeat" src="audio/Beat.mp3"></audio>
+		<audio data-audioref='Bird3' id="Clicking" class="musicBeat" src="audio/Clicking.mp3"></audio>
+		<audio data-audioref='frog1' id="Drum" class="musicBeat" src="audio/Drum_Beat.mp3"></audio>
+		<audio data-audioref='frog2' id="Synth" class="musicBeat" src="audio/Synth.mp3"></audio>
+		<audio data-audioref='frog3' id="SynthBeat" class="musicBeat" src="audio/SynthBeat.mp3"></audio>
 	</div>
 	<script src="js/main.js"></script>
 </body>
